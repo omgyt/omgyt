@@ -1,0 +1,367 @@
+        .container #topbar {
+            background-color: black;
+            height: 20px;
+            width: 100%;
+        }
+        
+        body {
+            background-color: #e1e1e1;
+        }
+        
+        .container {
+            background-color: white;
+            max-width: 1100px;
+            margin: 0px auto;
+        }
+        
+        section {
+            padding: 20px;
+        }
+        
+        header {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid black;
+        }
+        
+        header .img-wapper {
+            width: 60%;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+        }
+        
+        span {
+            font-size: 40px;
+            font-family: "Vidaloka-Regular";
+        }
+        
+        header img {
+            height: 100px;
+            width: 100px;
+        }
+        
+        header p {
+            text-align: right;
+            margin: 0px;
+            font-family: Sacramento-Regular;
+        }
+        
+        ul {
+            display: flex;
+            align-items: center;
+            list-style: none;
+            padding: 0px;
+            margin: 0px;
+        }
+        
+        li a {
+            text-decoration: none;
+        }
+        
+        li {
+            padding: 10px;
+            font-family: arvo-regular;
+        }
+        
+        .video-wapper video {
+            width: 700px;
+            height: 400px;
+            object-fit: cover;
+        }
+        
+        .video-wapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        h1 {
+            text-align: center;
+            font-size: 50px;
+            font-family: AbrilFatface-Regular;
+        }
+        
+        .desc {
+            font-size: 30px;
+            text-align: center;
+        }
+        
+        .content {
+            font-size: 20px;
+            text-align: justify;
+            font-family: arvo-regular;
+        }
+        
+        .links {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .links li a {
+            color: blue;
+        }
+        
+        .channel {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        button {
+            padding: 10px;
+            background-color: blue;
+            margin: 24px;
+            border-radius: 17px;
+        }
+        
+        a {
+            color: white;
+            text-decoration: none;
+            font-size: 22px;
+        }
+        
+        .groups {
+            text-align: center;
+        }
+        
+        .menu li a {
+            color: blue;
+            font-size: 17px;
+        }
+        
+        .like {
+            text-align: center;
+        }
+        
+        .rr {
+            text-align: justify;
+            font-family: arvo-regular;
+        }
+        
+        .note {
+            color: red;
+            font-family: arvo-regular;
+        }
+        
+        #home-content {
+            padding: 0px 20px;
+        }
+        
+        #buyer {
+            padding: 20px 20px;
+        }
+        
+        #buyer h2 {
+            text-align: justify;
+            font-family: AbrilFatface-Regular;
+        }
+        
+        .buyers-img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .buyers-img img {
+            width: 300px;
+            height: 250px;
+        }
+        
+        .hambargar {
+            display: none;
+        }
+        
+        .buyer-container {
+            text-align: justify;
+        }
+        
+        #sellers {
+            padding: 20px 20px;
+        }
+        
+        .sellers-containter {
+            text-align: justify;
+        }
+        
+        .rule-points img {
+            width: 70px;
+            height: 70px;
+        }
+        
+        .rule-points {
+            display: flex;
+            align-items: center;
+            padding-top: 20px;
+        }
+        
+        .rule-points {
+            font-size: x-large;
+            font-family: arvo-regular;
+            padding-left: 20px;
+        }
+        
+        .rule-points p {
+            padding-left: 50px;
+            margin: 0px;
+        }
+        
+        .cash-back img {
+            width: 120px;
+        }
+        
+        .cash-back {
+            display: flex;
+            align-items: center;
+            padding-top: 20px;
+        }
+        
+        .cash-back p {
+            font-size: x-large;
+            font-family: arvo-regular;
+            padding-left: 20px;
+            margin: 0px
+        }
+        
+        .buyer-container h3 {
+            text-align: center;
+        }
+        
+        .sellers-img img {
+            width: 700px;
+            height: 200px;
+        }
+        
+        .sellers-img {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .seller-rules img {
+            width: 110px;
+            height: 110px;
+        }
+        
+        .seller-rules {
+            display: flex;
+            align-items: center;
+            padding-top: 20px;
+        }
+        
+        .seller-rules {
+            font-size: x-large;
+            font-family: arvo-regular;
+            padding-left: 20px;
+        }
+        
+        .seller-rules p {
+            padding-left: 50px;
+            margin: 0px;
+        }
+        
+        .seller-head {
+            text-align: center;
+        }
+        
+        .contact-us p {
+            font-size: 20px;
+            font-family: arvo-regular;
+            text-align: justify;
+            padding: 20px;
+        }
+        
+        .news h2 {
+            text-align: center;
+            color: blue;
+        }
+        
+        .whats-app {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .whats-applink a {
+            color: white;
+        }
+        
+        .whats-applink {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+        
+        .whats-applink button {
+            background-color: green;
+            width: 200px;
+        }
+        
+        .click-here {
+            color: blue;
+            text-align: center;
+            font-size: 40px;
+            font-family: arvo-regular;
+        }
+        
+        .thank-you p {
+            text-align: center;
+            font-size: 20px;
+            font-family: arvo-regular;
+        }
+        
+        .thank-you h3 {
+            text-align: center;
+            font-size: 40px;
+            font-family: AbrilFatface-Regular;
+        }
+        
+        #myLinks {
+            display: none;
+        }
+        
+        @media only screen and (max-width: 767px) {
+            .menu {
+                display: none;
+            }
+            .video-wapper video {
+                max-width: 700px;
+                min-width: 320px;
+            }
+            .links {
+                flex-direction: column;
+            }
+            #buyer h1 {
+                font-size: 40px;
+            }
+            .hambargar {
+                display: block;
+            }
+            header img {
+                width: 50px;
+                height: 50px;
+            }
+            span {
+                font-size: 16px;
+            }
+            header .img-wapper {
+                width: auto;
+            }
+            .fa {
+                padding: 20px;
+            }
+            #myLinks {
+                position: absolute;
+                top: 85px;
+                width: calc(100% - 16px);
+                display: none;
+                flex-direction: column;
+                background: #000;
+                opacity: 0.9;
+                z-index: 1;
+            }
+            #myLinks a {
+                text-align: center;
+                padding: 6px;
+            }
+        }
